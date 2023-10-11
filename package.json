@@ -1,0 +1,17 @@
+{
+    "name": "pulumi-ts",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^20"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^6.4.1",
+        "@pulumi/aws-native": "^0.79.0",
+        "@pulumi/pulumi": "^3.87.0"
+    },
+    "scripts": {
+        "preview": "pulumi preview",
+        "up": "pulumi up",
+        "destroy": "pulumi destroy"
+    }
+}

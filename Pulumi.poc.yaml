@@ -1,0 +1,12 @@
+config:
+  aws:profile: jorge-leon
+  aws:region: us-east-1
+  aws-native:profile: jorge-leon
+  aws-native:region: us-east-1
+  pulumi-ts:application-name: ebs-my-app
+  pulumi-ts:application-beanstalk-role-name: ebs-role
+  pulumi-ts:application-beanstalk-instance-profile: ebs-inst-profile
+  pulumi-ts:vpc-name: vpc
+  pulumi-ts:vpc-subnet-name: vpc-subnet
+  pulumi-ts:vpc-security-group-name: vpc-sec-group
+  pulumi-ts:cache-cluster-name: redis-cache
